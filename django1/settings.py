@@ -28,7 +28,7 @@ DEBUG = False
 
 # Qual domínio vai executar o projeto django
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django1-primeiro-projeto-web.herokuapp.com']
 
 # Application definition
 INSTALLED_APPS = [
