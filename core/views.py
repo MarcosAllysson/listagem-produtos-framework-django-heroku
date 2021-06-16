@@ -90,7 +90,7 @@ def produto(request, id):
     #consulta_produto = Produto.objects.get(id=id)
 
     # faz a consulta usando o módulo get object 404, do tipo Produto, onde o id é igual ao recebido por parâmetro.
-    # Se encontrar, retorna pra mim o objeto, se não, o objeto não existe e redirecione o usuário pra página 404.
+    # Se encontrar, retorna o objeto, se não, o objeto não existe e redirecione o usuário pra página 404.
     consulta_produto = get_object_or_404(Produto, id=id)
 
     # transformando resposta do id pra um dicionário
